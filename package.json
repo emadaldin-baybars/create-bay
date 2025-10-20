@@ -1,6 +1,6 @@
 {
   "name": "create-bay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to create and manage Pure JavaScript SPA projects with zero dependencies",
   "type": "module",
   "main": "index.js",
