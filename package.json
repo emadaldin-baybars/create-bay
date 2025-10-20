@@ -1,0 +1,54 @@
+{
+  "name": "create-bay",
+  "version": "1.0.0",
+  "description": "CLI tool to create and manage Pure JavaScript SPA projects with zero dependencies",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-bay": "./bin/create-bay.js",
+    "bay": "./bin/bay.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spa",
+    "pure-javascript",
+    "vanilla-js",
+    "cli",
+    "generator",
+    "scaffold",
+    "template",
+    "boilerplate",
+    "create-app",
+    "project-generator",
+    "single-page-application",
+    "no-framework",
+    "zero-dependencies",
+    "bay",
+    "create-bay"
+  ],
+  "author": "Baybars",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baybars/create-bay.git"
+  },
+  "homepage": "https://github.com/baybars/create-bay#readme",
+  "bugs": {
+    "url": "https://github.com/baybars/create-bay/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "template/",
+    "README.md",
+    "LICENSE"
+  ]
+}
